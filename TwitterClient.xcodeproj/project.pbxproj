@@ -10,7 +10,7 @@
 		0ABB0D8284503C8FA010EFEF /* Pods_TwitterClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A90B38C2DFADD9C96A2C4A2 /* Pods_TwitterClientTests.framework */; };
 		293953112094477B00549F58 /* ApplicationSettingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293953102094477B00549F58 /* ApplicationSettingKeys.swift */; };
 		29FC3AAE209278E6005D8CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC3AAD209278E6005D8CA3 /* AppDelegate.swift */; };
-		29FC3AB0209278E6005D8CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC3AAF209278E6005D8CA3 /* ViewController.swift */; };
+		29FC3AB0209278E6005D8CA3 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC3AAF209278E6005D8CA3 /* TimeLineViewController.swift */; };
 		29FC3AB3209278E6005D8CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FC3AB1209278E6005D8CA3 /* Main.storyboard */; };
 		29FC3AB5209278E7005D8CA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC3AB4209278E7005D8CA3 /* Assets.xcassets */; };
 		29FC3AB8209278E7005D8CA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FC3AB6209278E7005D8CA3 /* LaunchScreen.storyboard */; };
@@ -35,7 +35,7 @@
 		293953102094477B00549F58 /* ApplicationSettingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSettingKeys.swift; sourceTree = "<group>"; };
 		29FC3AAA209278E6005D8CA3 /* TwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC3AAD209278E6005D8CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29FC3AAF209278E6005D8CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29FC3AAF209278E6005D8CA3 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 		29FC3AB2209278E6005D8CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29FC3AB4209278E7005D8CA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29FC3AB7209278E7005D8CA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		29B7CD29209439070043B6F8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				29FC3AAF209278E6005D8CA3 /* ViewController.swift */,
+				29FC3AAF209278E6005D8CA3 /* TimeLineViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -405,7 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				293953112094477B00549F58 /* ApplicationSettingKeys.swift in Sources */,
-				29FC3AB0209278E6005D8CA3 /* ViewController.swift in Sources */,
+				29FC3AB0209278E6005D8CA3 /* TimeLineViewController.swift in Sources */,
 				29FC3AAE209278E6005D8CA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

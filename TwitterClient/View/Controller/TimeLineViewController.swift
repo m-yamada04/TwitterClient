@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TimeLineViewController.swift
 //  TwitterClient
 //
 //  Created by Maika Yamada on 2018/04/27.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TimeLineViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
