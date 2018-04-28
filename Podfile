@@ -11,7 +11,6 @@ target 'TwitterClient' do
   pod 'Alamofire', '~> 4.7.2'
   pod 'TwitterKit', '~> 3.3.0'
   pod 'RealmSwift', '~> 3.5.0'
-  pod 'SkeletonView', '~> 1.1.1'
 
   target 'TwitterClientTests' do
     inherit! :search_paths
