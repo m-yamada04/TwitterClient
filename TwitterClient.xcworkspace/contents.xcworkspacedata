@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:TwitterClient/View/Storyboard/Base.lproj/UserProfile.storyboard">
+   </FileRef>
+   <FileRef
       location = "group:TwitterClient.xcodeproj">
    </FileRef>
    <FileRef
