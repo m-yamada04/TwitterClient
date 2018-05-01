@@ -26,7 +26,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="80" height="144.5"/>
                                 <subviews>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bgx-cs-z3I" customClass="CircleImageView" customModule="TwitterClient" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="32.5" width="80" height="80.5"/>
+                                        <rect key="frame" x="4" y="32" width="80" height="80.5"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="bgx-cs-z3I" secondAttribute="height" multiplier="1:1" id="vMl-57-KZx"/>
                                         </constraints>
@@ -35,8 +36,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="bgx-cs-z3I" firstAttribute="centerY" secondItem="54d-bO-3Ly" secondAttribute="centerY" id="2Xe-ia-zSC"/>
-                                    <constraint firstItem="bgx-cs-z3I" firstAttribute="leading" secondItem="54d-bO-3Ly" secondAttribute="leading" id="6S3-a7-0Ve"/>
+                                    <constraint firstItem="bgx-cs-z3I" firstAttribute="leading" secondItem="54d-bO-3Ly" secondAttribute="leading" constant="4" id="6S3-a7-0Ve"/>
                                     <constraint firstItem="bgx-cs-z3I" firstAttribute="width" secondItem="54d-bO-3Ly" secondAttribute="width" id="AF6-EX-8eA"/>
+                                    <constraint firstItem="bgx-cs-z3I" firstAttribute="top" relation="greaterThanOrEqual" secondItem="54d-bO-3Ly" secondAttribute="top" constant="4" id="DTU-vg-Gnv"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="bgx-cs-z3I" secondAttribute="bottom" constant="4" id="NlC-2N-3Op"/>
                                     <constraint firstAttribute="width" constant="80" id="rns-cL-QOZ"/>
                                 </constraints>
                             </view>
@@ -66,6 +69,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <dataDetectorType key="dataDetectorTypes" link="YES"/>
                                     </textView>
                                 </subviews>
                                 <constraints>
