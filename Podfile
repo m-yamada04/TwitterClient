@@ -5,9 +5,6 @@ target 'TwitterClient' do
   use_frameworks!
   swift_version='4.1'
 
-  pod 'KeychainAccess', '~> 3.1.1'
-  pod 'RxSwift', '~> 4.1.2'
-  pod 'RxCocoa', '~> 4.1.2'
   pod 'Alamofire', '~> 4.7.2'
   pod 'TwitterKit', '~> 3.3.0'
   pod 'RealmSwift', '~> 3.5.0'
