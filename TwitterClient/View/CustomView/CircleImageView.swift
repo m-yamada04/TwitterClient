@@ -12,6 +12,7 @@ class CircleImageView: UIImageView {
 
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        self.clipsToBounds = true
         self.layer.cornerRadius = self.frame.size.width * 0.5
     }
 }

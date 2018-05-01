@@ -26,11 +26,21 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="4Td-6A-PoW"/>
                                 </connections>
                             </tableView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXW-tb-weK">
+                                <rect key="frame" x="138.5" y="313" width="98" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="ログイン"/>
+                                <connections>
+                                    <action selector="loginButtonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Swy-bO-8nb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="du2-pH-GMU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4JU-Ws-HWY"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="du2-pH-GMU" secondAttribute="trailing" id="7eq-IQ-O15"/>
+                            <constraint firstItem="hXW-tb-weK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JsP-vY-b2a"/>
+                            <constraint firstItem="hXW-tb-weK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="k3H-EI-r9s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="du2-pH-GMU" secondAttribute="bottom" id="khv-6R-NC1"/>
                             <constraint firstItem="du2-pH-GMU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zOS-Rt-p8j"/>
                         </constraints>
@@ -38,13 +48,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="ホーム" id="qar-6o-XwB"/>
                     <connections>
+                        <outlet property="_loginButton" destination="hXW-tb-weK" id="BnE-PY-wcV"/>
                         <outlet property="_tweetListView" destination="du2-pH-GMU" id="UF0-YJ-eXB"/>
-                        <segue destination="b0f-cj-8E3" kind="show" id="enA-qr-8c1"/>
+                        <segue destination="b0f-cj-8E3" kind="show" identifier="ToUserProfile" id="enA-qr-8c1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="334" y="163"/>
+            <point key="canvasLocation" x="436" y="163"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="wYS-hN-0nC">
@@ -68,7 +79,7 @@
                 <viewControllerPlaceholder storyboardName="UserProfile" id="b0f-cj-8E3" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kpw-4L-D47" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="938" y="163"/>
+            <point key="canvasLocation" x="985" y="163"/>
         </scene>
     </scenes>
 </document>

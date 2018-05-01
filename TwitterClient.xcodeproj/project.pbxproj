@@ -13,8 +13,18 @@
 		2917615620949BC5007E2823 /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2917615420949BC5007E2823 /* ProfileCell.xib */; };
 		2917615820949BEF007E2823 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2917615720949BEF007E2823 /* TweetCell.xib */; };
 		2917615A2094A810007E2823 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291761592094A810007E2823 /* CircleImageView.swift */; };
+		291890A22098C577002C55FE /* LoadingTweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291890A02098C577002C55FE /* LoadingTweetCell.swift */; };
+		291890A32098C577002C55FE /* LoadingTweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 291890A12098C577002C55FE /* LoadingTweetCell.xib */; };
+		291890A62098CAE4002C55FE /* NoneTweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291890A42098CAE4002C55FE /* NoneTweetCell.swift */; };
+		291890A72098CAE4002C55FE /* NoneTweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 291890A52098CAE4002C55FE /* NoneTweetCell.xib */; };
 		2923024C2095C99200734739 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923024B2095C99200734739 /* UserProfileViewController.swift */; };
 		2923024F2095CA1B00734739 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2923024D2095CA1B00734739 /* UserProfile.storyboard */; };
+		292302512097014E00734739 /* TimeLineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292302502097014E00734739 /* TimeLineViewModel.swift */; };
+		292302552097087300734739 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292302542097087300734739 /* Tweet.swift */; };
+		2923025920970FB300734739 /* JSONSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923025820970FB300734739 /* JSONSerializer.swift */; };
+		2923025B2097169F00734739 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923025A2097169F00734739 /* User.swift */; };
+		2923025E209755F500734739 /* TwitterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2923025D209755F500734739 /* TwitterManager.swift */; };
+		292302682098A9EE00734739 /* UserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292302672098A9EE00734739 /* UserProfileViewModel.swift */; };
 		293953112094477B00549F58 /* ApplicationSettingKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293953102094477B00549F58 /* ApplicationSettingKeys.swift */; };
 		29FC3AAE209278E6005D8CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC3AAD209278E6005D8CA3 /* AppDelegate.swift */; };
 		29FC3AB0209278E6005D8CA3 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FC3AAF209278E6005D8CA3 /* TimeLineViewController.swift */; };
@@ -44,8 +54,18 @@
 		2917615420949BC5007E2823 /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
 		2917615720949BEF007E2823 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
 		291761592094A810007E2823 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		291890A02098C577002C55FE /* LoadingTweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTweetCell.swift; sourceTree = "<group>"; };
+		291890A12098C577002C55FE /* LoadingTweetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingTweetCell.xib; sourceTree = "<group>"; };
+		291890A42098CAE4002C55FE /* NoneTweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoneTweetCell.swift; sourceTree = "<group>"; };
+		291890A52098CAE4002C55FE /* NoneTweetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoneTweetCell.xib; sourceTree = "<group>"; };
 		2923024B2095C99200734739 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		2923024E2095CA1B00734739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserProfile.storyboard; sourceTree = "<group>"; };
+		292302502097014E00734739 /* TimeLineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewModel.swift; sourceTree = "<group>"; };
+		292302542097087300734739 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		2923025820970FB300734739 /* JSONSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONSerializer.swift; sourceTree = "<group>"; };
+		2923025A2097169F00734739 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2923025D209755F500734739 /* TwitterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterManager.swift; sourceTree = "<group>"; };
+		292302672098A9EE00734739 /* UserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewModel.swift; sourceTree = "<group>"; };
 		293953102094477B00549F58 /* ApplicationSettingKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationSettingKeys.swift; sourceTree = "<group>"; };
 		29FC3AAA209278E6005D8CA3 /* TwitterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC3AAD209278E6005D8CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,18 +106,31 @@
 		2917614820949A3C007E2823 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				2917615720949BEF007E2823 /* TweetCell.xib */,
+				291890A12098C577002C55FE /* LoadingTweetCell.xib */,
+				291890A52098CAE4002C55FE /* NoneTweetCell.xib */,
 				2917615420949BC5007E2823 /* ProfileCell.xib */,
+				2917615720949BEF007E2823 /* TweetCell.xib */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		2923025C2097551600734739 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2923025820970FB300734739 /* JSONSerializer.swift */,
+				2923025D209755F500734739 /* TwitterManager.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		2939530B20943EC800549F58 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				2917614D20949B18007E2823 /* TweetCell.swift */,
-				2917615320949BC5007E2823 /* ProfileCell.swift */,
 				291761592094A810007E2823 /* CircleImageView.swift */,
+				291890A02098C577002C55FE /* LoadingTweetCell.swift */,
+				291890A42098CAE4002C55FE /* NoneTweetCell.swift */,
+				2917615320949BC5007E2823 /* ProfileCell.swift */,
+				2917614D20949B18007E2823 /* TweetCell.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -105,6 +138,8 @@
 		2939530C209442F500549F58 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				292302502097014E00734739 /* TimeLineViewModel.swift */,
+				292302672098A9EE00734739 /* UserProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -125,16 +160,9 @@
 			isa = PBXGroup;
 			children = (
 				29B7CD2C20943C310043B6F8 /* Data */,
-				29B7CD28209437920043B6F8 /* Repository */,
+				2923025C2097551600734739 /* Service */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		29B7CD28209437920043B6F8 /* Repository */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repository;
 			sourceTree = "<group>";
 		};
 		29B7CD29209439070043B6F8 /* Controller */ = {
@@ -167,6 +195,8 @@
 		29B7CD2C20943C310043B6F8 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				292302542097087300734739 /* Tweet.swift */,
+				2923025A2097169F00734739 /* User.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -323,9 +353,11 @@
 				29FC3AB8209278E7005D8CA3 /* LaunchScreen.storyboard in Resources */,
 				2917615820949BEF007E2823 /* TweetCell.xib in Resources */,
 				29FC3AB5209278E7005D8CA3 /* Assets.xcassets in Resources */,
+				291890A72098CAE4002C55FE /* NoneTweetCell.xib in Resources */,
 				2923024F2095CA1B00734739 /* UserProfile.storyboard in Resources */,
 				29FC3AB3209278E6005D8CA3 /* Main.storyboard in Resources */,
 				2917615620949BC5007E2823 /* ProfileCell.xib in Resources */,
+				291890A32098C577002C55FE /* LoadingTweetCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,24 +399,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TwitterClient/Pods-TwitterClient-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
-				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
 				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
 			);
@@ -436,11 +460,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291890A22098C577002C55FE /* LoadingTweetCell.swift in Sources */,
+				292302552097087300734739 /* Tweet.swift in Sources */,
 				293953112094477B00549F58 /* ApplicationSettingKeys.swift in Sources */,
+				292302682098A9EE00734739 /* UserProfileViewModel.swift in Sources */,
 				29FC3AB0209278E6005D8CA3 /* TimeLineViewController.swift in Sources */,
 				2923024C2095C99200734739 /* UserProfileViewController.swift in Sources */,
+				291890A62098CAE4002C55FE /* NoneTweetCell.swift in Sources */,
 				29FC3AAE209278E6005D8CA3 /* AppDelegate.swift in Sources */,
+				2923025920970FB300734739 /* JSONSerializer.swift in Sources */,
+				2923025E209755F500734739 /* TwitterManager.swift in Sources */,
 				2917614F20949B18007E2823 /* TweetCell.swift in Sources */,
+				2923025B2097169F00734739 /* User.swift in Sources */,
+				292302512097014E00734739 /* TimeLineViewModel.swift in Sources */,
 				2917615A2094A810007E2823 /* CircleImageView.swift in Sources */,
 				2917615520949BC5007E2823 /* ProfileCell.swift in Sources */,
 			);
@@ -617,7 +649,10 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TwitterClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -645,7 +680,10 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = TwitterClient/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -669,7 +707,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F8S5MB9SU;
 				INFOPLIST_FILE = TwitterClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.m-yamada.TwitterClientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -687,7 +729,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8F8S5MB9SU;
 				INFOPLIST_FILE = TwitterClientTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.m-yamada.TwitterClientTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
